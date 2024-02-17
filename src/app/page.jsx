@@ -1,6 +1,10 @@
 import { VscQuote } from "react-icons/vsc";
 import { PiHandHeart } from "react-icons/pi";
 import { TbLayoutGridAdd } from "react-icons/tb";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoLogoFacebook } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa6";
+import { LuCopyright } from "react-icons/lu";
 import { FaChild } from "react-icons/fa";
 import { BsArrowRight} from "react-icons/bs";
 import CampaignCard from "@/components/CampaignCard";
@@ -188,6 +192,74 @@ const Home = () => {
             </button>
           </div>
         </div>
+      </section>
+
+      <section className="bg-orange-100 py-12 px-10">
+        <div className="mx-5 my-4">
+      <div className="flex">
+       <div className="w-1/2">
+        <div className="font-bold text-2xl w-[20%] leading-tight text-black-500">
+              Newsletter
+            </div>
+            <div className="font-light text-1x1 mt-2">
+              Fill in your email to subscribe our newsletter.
+            </div>
+            
+            <div class="flex py-4">
+            <input 
+            type="text" 
+            class="w-[60%] rounded-l-md px-4 py-3 placeholder-black bg-gray-200 "
+             placeholder="Email"
+             />
+            <button class="bg-yellow-300 hover:bg-orange-200 text-black font-light rounded-r-md px-4 py-2 text-s">Subscribe</button>
+            </div>
+
+            </div>
+
+
+            <div className="w-1/2 ">
+             <div class="flex flex-col float-right space-y-4 ">
+        
+              <div className="flex justify-between">
+                <a href="/"  className="text-sm text-left font-semibold">About Us</a>
+              <a href="/" ><FaSquareXTwitter className="size-6"/></a>
+              </div>
+
+              <div className="flex justify-between ">
+                <a href="/"  className="text-sm text-left font-semibold">Campaigns</a>
+                <a href="/" ><IoLogoFacebook className="size-6"/></a>
+              </div>
+
+              <div className="flex justify-between  space-x-7">
+                <a href="/"  className="text-sm text-left font-semibold">Contact Us</a>
+                <a href="/" > <FaLinkedin  className="size-6"/></a>
+              </div>
+        
+       
+      </div>
+    </div>
+</div>
+
+<div className="w-[100%] h-1.5 bg-yellow-300 mt-5"></div>
+
+
+<div className="flex justify-between mt-6">
+
+  <div className="flex items-center">
+  < LuCopyright className="size-5"/>
+  <a href="/" className="ml-3 text-sm font-semibold ">Copyright</a>
+  </div>
+  <div className="flex ">
+    <a href="/"  className="text-sm font-semibold">Privacy Policy</a>
+    <a href="/"  className="ml-5 text-sm font-semibold ">Terms & Conditions</a>
+
+  </div>
+
+</div>
+
+
+
+            </div>
       </section>
     </div>
   );

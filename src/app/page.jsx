@@ -247,12 +247,12 @@ const Home = () => {
 
 <div className="flex justify-between mt-6">
 
-  <div className="flex items-center">
+  <div className=" flex items-center">
   < LuCopyright className="size-5"/>
   <a href="/" className="ml-3 text-base font-medium">Copyright</a>
   </div>
   <div className="flex">
-    <a href="/"  className="text-base font-mediumPrivacy Policy</a>
+    <a href="/"  className="text-base font-medium"> Privacy Policy</a>
     <a href="/"  className="ml-5 text-base font-medium ">Terms & Conditions</a>
 
   </div>

@@ -34,13 +34,15 @@ const Home = () => {
             </div>
             <div className="h-[500px] grid content-center justify-items-start">
               <div className="font-medium text-white text-5xl w-[26%]">
-                Children's joy is play
+                Children
+                &apos;s joy is play
               </div>
               <div className="text-primary mt-4 text-lg w-[26%]">
                 OUR MISSION
               </div>
               <div className="text-white mt-4 text-sm w-[26%]">
-                to warm a child's heart through coordinated play
+                to warm a child
+                &apos;s heart through coordinated play
               </div>
               <button className="bg-primary px-6 rounded-md mt-8 py-4 font-medium">
                 Donate Now

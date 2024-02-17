@@ -196,11 +196,11 @@ const Home = () => {
         
       </section>
 
-      <section className="bg-orange-100 py-12 px-10">
+      <section className="bg-yellow-50 py-12 px-10">
         <div className="mx-5 my-4">
       <div className="flex">
        <div className="w-1/2">
-        <div className="font-bold text-2xl w-[20%] leading-tight text-black-500">
+        <div className="font-bold text-xl w-[20%] leading-tight text-black-500">
               Newsletter
             </div>
             <div className="font-light text-1x1 mt-2">
@@ -210,7 +210,7 @@ const Home = () => {
             <div class="flex py-4">
             <input 
             type="text" 
-            class="w-[60%] rounded-l-md px-4 py-3 placeholder-black bg-gray-200 "
+            class="w-[60%] rounded-l-md px-4 py-3 placeholder-black bg-neutral-100 "
              placeholder="Email"
              />
             <button class="bg-yellow-300 hover:bg-orange-200 text-black font-light rounded-r-md px-4 py-2 text-s">Subscribe</button>
@@ -223,17 +223,17 @@ const Home = () => {
              <div class="flex flex-col float-right space-y-4 ">
         
               <div className="flex justify-between">
-                <a href="/"  className="text-sm text-left font-semibold">About Us</a>
+                <a href="/"  className="text-lg text-left font-medium">About Us</a>
               <a href="/" ><FaSquareXTwitter className="size-6"/></a>
               </div>
 
               <div className="flex justify-between ">
-                <a href="/"  className="text-sm text-left font-semibold">Campaigns</a>
+                <a href="/"  className="text-lg text-left font-medium">Campaigns</a>
                 <a href="/" ><IoLogoFacebook className="size-6"/></a>
               </div>
 
               <div className="flex justify-between  space-x-7">
-                <a href="/"  className="text-sm text-left font-semibold">Contact Us</a>
+                <a href="/"  className="text-lg text-left font-medium">Contact Us</a>
                 <a href="/" > <FaLinkedin  className="size-6"/></a>
               </div>
         
@@ -242,18 +242,18 @@ const Home = () => {
     </div>
 </div>
 
-<div className="w-[100%] h-1.5 bg-yellow-300 mt-5"></div>
+<div className="w-[100%] h-1.5 bg-yellow-200 mt-5"></div>
 
 
 <div className="flex justify-between mt-6">
 
   <div className="flex items-center">
   < LuCopyright className="size-5"/>
-  <a href="/" className="ml-3 text-sm font-semibold ">Copyright</a>
+  <a href="/" className="ml-3 text-base font-medium">Copyright</a>
   </div>
   <div className="flex ">
-    <a href="/"  className="text-sm font-semibold">Privacy Policy</a>
-    <a href="/"  className="ml-5 text-sm font-semibold ">Terms & Conditions</a>
+    <a href="/"  className="text-base font-mediumPrivacy Policy</a>
+    <a href="/"  className="ml-5 text-base font-medium ">Terms & Conditions</a>
 
   </div>
 

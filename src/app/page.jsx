@@ -251,7 +251,7 @@ const Home = () => {
   < LuCopyright className="size-5"/>
   <a href="/" className="ml-3 text-base font-medium">Copyright</a>
   </div>
-  <div className="flex ">
+  <div className="flex">
     <a href="/"  className="text-base font-mediumPrivacy Policy</a>
     <a href="/"  className="ml-5 text-base font-medium ">Terms & Conditions</a>
 
